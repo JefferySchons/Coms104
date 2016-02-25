@@ -1,0 +1,28 @@
+from math import
+print "Quadratic Equations: ax^2+bx+c=0"
+
+a=input("Enter a:")
+b=input("Enter b:")
+c=input("Enter c:")
+
+decrament=(b**)-(4*a*c)
+string equation=a+"x^2+"b"x+"c"=0"
+
+if decrament>0:
+	#2 solutions
+	print "Equation:", equation, "has two solution."
+	
+	solution_one=(-b+sqr(decrament))/(2*a)
+	solution_two=(-b-sqr(decrament))/(2*a)
+	
+	print "Solution:1", solution_one
+	print "Solution:2", solution_two
+
+elif decrament==0:
+	#1 solution
+	print "Equation:", equation, "has one solution."
+	solution_one=(-b+sqr(decrament))/(2*a)
+	print "Solution:1", solution_one
+else:
+	#no solutions
+	print "Equation:", equation, "has no solution."
